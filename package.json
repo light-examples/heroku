@@ -1,0 +1,16 @@
+{
+  "name": "my-light-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "light start",
+    "dev": "light dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "light": "^1.2.45"
+  }
+}
