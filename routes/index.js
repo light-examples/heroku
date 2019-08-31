@@ -1,11 +1,12 @@
-const light = require('light');
+const { light, Route } = require('light');
 
-module.exports = light({
-  path: '/',
+class Index extends Route {
   async handler() {
     return {
       hello: 'world',
       this: 'is hosted on heroku',
     };
-  },
-});
+  }
+}
+
+module.exports = light(Index);
